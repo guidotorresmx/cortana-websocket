@@ -13,7 +13,7 @@ namespace Microsoft.BotBuilderSamples.Bots
     {
         protected override async Task OnMessageActivityAsync(ITurnContext<IMessageActivity> turnContext, CancellationToken cancellationToken)
         {
-            await turnContext.SendActivityAsync(MessageFactory.Text($"Eco: {turnContext.Activity.Text}"), cancellationToken);
+            await turnContext.SendActivityAsync(MessageFactory.Text($"ansagen: {turnContext.Activity.Text}"), cancellationToken);
         }
 
         protected override async Task OnMembersAddedAsync(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
@@ -22,7 +22,7 @@ namespace Microsoft.BotBuilderSamples.Bots
             {
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"hola y bienvenido!"), cancellationToken);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"tag and vielekommen!"), cancellationToken);
                 }
             }
         }
