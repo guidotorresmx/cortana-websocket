@@ -27,7 +27,7 @@ namespace Microsoft.BotBuilderSamples.Controllers
         [HttpOptions]
         public IActionResult Index()
         {
-            return Ok();
+            return Accepted();
         }
 
         [HttpPost, HttpGet]
