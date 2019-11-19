@@ -1,0 +1,18 @@
+{
+    "name": "botTestPrime20",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "a9782eda-e2af-497f-bdce-550670f2f459",
+            "appPassword": "|67/zvGiUgBi8K>fCVVe)m3f",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "739e7580-0ae3-11ea-a438-9b5ebf2670ae",
+            "name": "http://localhost:3978/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\guido\\Desktop\\botTestPrime20-cortana2\\botTestPrime20.bot"
+}
