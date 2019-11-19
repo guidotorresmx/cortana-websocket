@@ -53,7 +53,7 @@ namespace Microsoft.BotBuilderSamples
             app.UseDefaultFiles();
             app.UseStaticFiles();
             app.UseWebSockets();
-            app.UseBotFrameworkNamedPipe();
+            //app.UseBotFrameworkNamedPipe();
 
             app.UseMvc();
         }
