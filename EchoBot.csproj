@@ -6,9 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Conversations.Core" Version="1.0.0-beta" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.6.0" />
     <PackageReference Include="Microsoft.Bot.Builder.StreamingExtensions" Version="4.5.1-preview1" />
+    <PackageReference Include="Microsoft.Bot.Connector.DirectLine" Version="3.0.2" />
+    <PackageReference Include="Universal.Microsoft.Bot.Connector.DirectLine" Version="2.0.1" />
   </ItemGroup>
 
   <ItemGroup>

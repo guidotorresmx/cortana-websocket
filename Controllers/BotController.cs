@@ -24,6 +24,12 @@ namespace Microsoft.BotBuilderSamples.Controllers
             Bot = bot;
         }
 
+        [HttpOptions]
+        public IActionResult Index()
+        {
+            return Ok();
+        }
+
         [HttpPost, HttpGet]
         public async Task PostAsync()
         {
